@@ -13,11 +13,22 @@ body {
 .hero-image {
   background-image: url("./assets/images/pexels-venelin-dimitrov-3476312.jpg");
   /* background-color: #cccccc; */
-  height: 500px;
+  /* height: 500px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+  background-size: contain; */
+  /* position: relative;
+
+  object-fit: cover;
+  height: 100%; */
+
+  height: 100vh;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
@@ -34,5 +45,38 @@ body {
   position: absolute;
   bottom: 5%;
   color: white;
+}
+
+/* .role {
+  // background-color: rgba(103, 25, 126, 0.5);
+  text-align: center;
+} */
+
+.role p {
+  margin: 5px 100px;
+  text-align: justify;
+}
+
+.about {
+  background-color: rgb(48, 1, 123);
+  display: flex;
+  flex-direction: row;
+}
+
+#sarah-img {
+  width: 200px;
+}
+
+.contact {
+  background-image: url("../images/pexels-rovenimagescom-949585.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+footer {
+  background-color: rgb(27, 1, 27);
+  text-align: center;
 }
 
