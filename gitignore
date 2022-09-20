@@ -40,4 +40,11 @@ Temporary Items
 *.sass.map
 *.scss.map
 
+### Prepros ###
+# Config Prepros files to ignore
+prepros.cfg
+prepros-6.config
+prepros.config
+
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,sass
