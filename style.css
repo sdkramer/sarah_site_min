@@ -10,6 +10,45 @@ body {
   overflow-x: hidden;
 }
 
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+image, video, canvas, svg {
+  max-width: 100%;
+  
+}
+
+h1 {
+  font-weight: 600;
+  font-size:5rem;
+  color: rgb(255, 235, 189);
+  -webkit-text-stroke: 0.5px rgb(64, 3, 145);
+  /* text-shadow: -1px 0px rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255); */
+}
+
+
+
+h6 {
+  font-weight: 600;
+  color: rgb(255, 235, 189);
+  -webkit-text-stroke: 0.3px rgb(64, 3, 145);
+  font-style: italic;
+}
+
+p {
+  font-size: 0.5rem;
+  color: rgb(253, 229, 173);
+  
+}
+
 .hero-image {
   background-image: url("./assets/images/pexels-venelin-dimitrov-3476312.jpg");
   /* background-color: #cccccc; */
