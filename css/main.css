@@ -49,11 +49,30 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 100px;
 }
 
-h1,h2,h3 {
+h1 {
+  text-transform: uppercase;
+}
+
+h1,h2 {
   text-align: center;
   color: rgb(255, 235, 189);
   -webkit-text-stroke: 0.5px rgb(64, 3, 145);
 }
 
+header p {
+  text-align: justify;
+  color: rgb(255, 235, 189);
+}
+
+header h3 {
+  text-align: center;
+  color: white;
+}
+
+/* About */
+#about {
+  background-color: #234A6F;
+}
