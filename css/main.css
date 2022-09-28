@@ -36,7 +36,7 @@ image, video, canvas, svg {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
   overflow: hidden;
 }
@@ -81,7 +81,7 @@ h1,h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 /* #hero-container {
@@ -103,12 +103,14 @@ h3 {
 
 /* About */
 #about {
-  background-color: #250944;
+  background-color: #5224ad;
 }
 
 #about .container {
   display: flex;
   flex-direction: row;
+  padding: 60px 0;
+  margin: 2px auto 0 auto;
 }
 
 #sarah-img {
@@ -120,15 +122,33 @@ h3 {
   margin: auto 0;
 }
 
+/*Contact section*/
 #contact {
-  background-color: #193B60;
+  background-color: #6f46c2;
 }
 
 #contact .container {
-  padding: 30px 0;
+  padding: 60px 0;
+  margin: 2px auto;
 }
 
+#contact .container p {
+  font-size: 24px;
+}
+.bold {
+  font-weight: bold;
+}
+
+
+/*Footer*/
 footer {
-  background-color: #150a04;
-  padding: 30px 0;
+  background-image: url("/assets/images/pexels-min-an-682788.jpg");
+  /* height: 100vh; */
+  background-position: 50%;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #150a04; */
+  padding: 100px 0;
+  color: white;
 }
